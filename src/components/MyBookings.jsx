@@ -79,7 +79,7 @@ function MyBookings() {
           <p>You haven't made any bookings yet.</p>
           <button
             className="book-flight-button"
-            onClick={() => navigate("/flights")}
+            onClick={() => navigate("/book-ticket")}
           >
             Book a Flight
           </button>
